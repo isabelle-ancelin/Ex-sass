@@ -1,0 +1,16 @@
+.top-nav {
+    @include d-flex-between;
+
+    img {
+        height: 5rem;
+    }
+    &__list {
+       @include d-flex-between;
+        li {
+            margin-left: 3rem;
+        }
+        a { 
+            color: $pink-sass
+         }   
+        }
+}

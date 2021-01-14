@@ -1,0 +1,12 @@
+.articles {
+    @include d-flex-wrap(wrap);
+    padding: 4rem;
+
+    article {
+        width: 30%;
+    }
+
+    // p {
+// @include colorier(pink);
+//     }
+}
